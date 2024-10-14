@@ -28,8 +28,8 @@ A simple Node.js application that parses HTTP request log files to report statis
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/http-log-parser.git
-   cd http-log-parser
+   git clone https://github.com/vjdeeds/log-file-parser.git
+   cd log-file-parser
 
    ```
 
