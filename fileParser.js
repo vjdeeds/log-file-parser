@@ -1,5 +1,5 @@
 // Function to parse log file
-// @logData: String - accepts string log data to parse
+// @logData: string - log data to parse
 function parseLogFile(logData) {
   const lines = logData.split("\n");
 
@@ -12,10 +12,10 @@ function parseLogFile(logData) {
     if (!line.trim()) return; // Skip empty lines
 
     //Trim the line for empty spaces before and after the text
-    const parts = line.trim().split(" ");
+    const parsedArray = line.trim().split(" ");
 
-    const ip = parts[0];
-    const url = parts[6];
+    const ip = parsedArray[0];
+    const url = parsedArray[6];
 
     // Add unique IP addresses
     ipAddresses.add(ip);
