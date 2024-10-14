@@ -13,7 +13,7 @@ A simple Node.js application that parses HTTP request log files to report statis
 - The log file entries are formatted consistently, following the standard combined log format.
 - Each log entry is a single line, with fields separated by spaces.
 - The URL is always the seventh element in the log entry.
-- IP addresses are valid and well-formed.
+- IP addresses are always the first element, are valid and well-formed.
 - The log file does not contain malformed entries or mixed formats
 
 ## Getting Started
